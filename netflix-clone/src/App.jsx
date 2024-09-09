@@ -1,14 +1,17 @@
 import { useState } from 'react'
-
 import './App.css'
+import Home from './pages/home/Home'
+// import Header from './Components/Header/Header'
 
 function App() {
 
 
   return (
-    <>
-      <h1> NETFLIX PROJECT</h1>
-    </>
+<div className='App'>
+      <Home/>
+     
+</div>
+   
   )
 }
 
